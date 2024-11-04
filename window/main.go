@@ -54,7 +54,7 @@ func main() {
 
 	windowControls.SetOnShow(func() {
 		go func() {
-			cmd := exec.Command("go", "run", "-tags", "nocgo", ".", "./demo.mkv", fmt.Sprintf("%v", windowPlayer.Handle()))
+			cmd := exec.Command("go", "run", "-tags", "nocgo", ".", "./video.mp4", fmt.Sprintf("%v", windowPlayer.Handle()))
 
 			fmt.Printf("Running mpv with app handle: %v", windowPlayer.Handle())
 			byt, err := cmd.CombinedOutput()
