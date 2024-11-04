@@ -7,3 +7,6 @@
 # Running
 
 `go run ./window/main.go`
+
+# Demo
+https://github.com/brys0/desktop-shim-poc/blob/main/demo/demo-poc.gif?raw=true
